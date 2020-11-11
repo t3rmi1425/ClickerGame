@@ -37,4 +37,8 @@ public class DebugScript : MonoBehaviour
     {
         PlayerStats.money = 0;
     }
+    public void DebugLevelUp(int _level)
+    {
+        PlayerStats.level += _level;
+    }
 }
